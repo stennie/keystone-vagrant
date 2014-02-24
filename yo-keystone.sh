@@ -29,21 +29,21 @@ then
     # Symlink our host www to the guest /var/www folder
     ln -s /vagrant/www /var/www    
 
-	# Install Heroku toolbelt
+    # Install Heroku toolbelt
     wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
-	# Install Keystone
-	npm install -g generator-keystone
+    # Install Keystone
+    npm install -g generator-keystone
 
-	# Huzzah!
-	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-	echo "If all went well, you should ready to get started with Keystone!"
-	echo ""
-	echo "You can login to this VM with:"
-	echo "   vagrant ssh"
-	echo ""
-	echo "The IP for this VM is: 192.168.192.168"
-	echo ""
-	echo "Run 'yo keystone' in the VM to start creating your first Keystone app"
-	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    # Huzzah!
+    echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    echo "If all went well, you should ready to get started with Keystone!"
+    echo ""
+    echo "You can login to this VM with:"
+    echo "   vagrant ssh"
+    echo ""
+    echo "The IP for this VM is: 192.168.192.168"
+    echo ""
+    echo "Run 'yo keystone' in the VM to start creating your first Keystone app"
+    echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 fi
