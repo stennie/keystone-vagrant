@@ -2,7 +2,7 @@
 
 ### What is this for?
 
-This box recipe provides a quick start to trying out the [KeystoneJS](http://keystonejs.com/) content management system using a [Vagrant](http://www.vagrantup.com/) development environment.
+This box recipe provides a quick start to trying out the [KeystoneJS](http://keystonejs.com/) content management system using a [Vagrant](http://www.vagrantup.com/) 1.1+ development environment.
 
 After successful installation you will have:
 
@@ -17,8 +17,8 @@ If you would prefer to install the Keystone Generator manually, you can instead 
 
 
 ### How do you use this box?
-1. [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-2. [Download and install Vagrant](http://www.vagrantup.com/downloads.html)
+1. [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads) (tested with 4.3.6)
+2. [Download and install Vagrant](http://www.vagrantup.com/downloads.html) - 1.1 or newer required (tested with 1.4.3)
 3. Clone this repository
 4. `cd keystone-vagrant/`
 5. `vagrant up`
