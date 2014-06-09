@@ -23,8 +23,8 @@ If you would prefer to install the Keystone Generator manually, you can instead 
 4. `cd keystone-vagrant/`
 5. `vagrant up`
 6. Grab a cup of coffee while you wait for the server to download and install. This will take a little while depending on your internet connection.
-
-After the install completes, instructions on getting started will be displayed.
+7. Once done `vagrant ssh` and in that folder run `yo keystone`.
+8. Answer all of the setup questions and then acces your brand new keystone site at `192.168.192.168:3000`. Login with the default user: `user@keystonejs.com`, pw: `admin`.
 
 ### Further Reading
 - [Vagrant Documentation](http://docs.vagrantup.com/)
