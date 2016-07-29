@@ -17,8 +17,7 @@ then
     apt-get install -y memcached build-essential
 
     # Add nodejs repo
-    add-apt-repository -y ppa:chris-lea/node.js
-    apt-get -y update
+    curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 
     # Install nodejs
     apt-get install -y nodejs
@@ -31,6 +30,9 @@ then
 
     # Install Heroku toolbelt
     wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+    # Install Yeoman
+    npm install -g yo
 
     # Install Keystone
     npm install -g generator-keystone
