@@ -1,4 +1,4 @@
-# Ubuntu 12.04 64-bit Vagrant Box for KeystoneJS
+# Ubuntu 14.04 64-bit Vagrant Box for KeystoneJS
 
 ### What is this for?
 
@@ -6,7 +6,7 @@ This box recipe provides a quick start to trying out the [KeystoneJS](http://key
 
 After successful installation you will have:
 
- * Ubuntu 12.04 64-bit VM listening on 192.168.192.168 
+ * Ubuntu 14.04 64-bit VM listening on 192.168.192.168 
  * Current version of [Node.js](http://nodejs.org/) (software platform that powers Keystone)
  * Current version of [MongoDB](http://www.mongodb.org/) (NoSQL document-oriented database)
  * All `npm` dependencies for KeystoneJS including [Mongoose](http://mongoosejs.com/) and [Express](http://expressjs.com/).
